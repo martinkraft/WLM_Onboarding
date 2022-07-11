@@ -1,0 +1,4 @@
+<onlyinclude><div class="wlm-on-faq mw-collapsible mw-collapsed"><div class="wlm-on-faq-question">{{{question|{{{1|}}}}}}</div>
+<div class="wlm-on-faq-answer mw-collapsible-content">
+{{{answer|{{{2|}}}}}}
+</div></div></onlyinclude>

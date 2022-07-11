@@ -1,0 +1,114 @@
+{
+    "structure": [{
+            "name": "Wiki GLAM",
+            "page": "WP:GLAM",
+            "lang": "de",
+            "id": "home",
+            "children": [{
+                    "name": "Informationen für"
+                }, {
+                    "name": "Institutionen",
+                    "page": "Wikipedia:GLAM/Institutionen"
+                },
+                {
+                    "name": "Freiwillige",
+                    "page": "Wikipedia:GLAM/Freiwillige",
+                    "children": [{
+                        "name": "Infos für Freiwillige:"
+                    }, {
+                        "name": "Wikipedian in Residenz",
+                        "page": "Wikipedia:GLAM/Presse"
+                    }]
+                },
+                {
+                    "name": "die Presse",
+                    "page": "Wikipedia:GLAM/Presse",
+                    "children": [{
+                            "name": "Pressemeldungen:"
+                        }, {
+                            "name": "Eine ganz tolle Pressemeldung",
+                            "page": "Wikipedia:GLAM/Presse 1"
+                        },
+                        {
+                            "name": "Und noch eine Meldung",
+                            "page": "Wikipedia:GLAM/Presse 2"
+                        },
+                        {
+                            "name": "Mal ganz was anderes",
+                            "page": "Wikipedia:GLAM/Presse 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Erfahrungsberichte",
+                    "page": "Wikipedia:GLAM/Erfahrungsberichte",
+                    "children": [{
+                            "name": "Erfahrungsberichte:"
+                        }, {
+                            "name": "Erfahrungsbericht 1",
+                            "page": "Wikipedia:GLAM/Case 1"
+                        },
+                        {
+                            "name": "Ein toller Erfahrungsbericht",
+                            "page": "User:Interaktionsdesign/GLAM/test"
+                        },
+                        {
+                            "name": "Erfahrungsbericht 3",
+                            "page": "Wikipedia:GLAM/Case 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vorlagen-Dokumentation",
+                    "page": "Vorlage:GLAMpage/Doku",
+                    "pageAliases": ["Vorlage:GLAMpage", "Vorlage:GLAMpage/Doku"],
+                    "hidden": true,
+                    "children": [{
+                            "name": "Kopiervorlagen:"
+                        },
+                        {
+                            "name": "Beispielseite Basis",
+                            "page": "Vorlage:GLAMpage/Doku/Demo/Basis"
+                        }, {
+                            "name": "Beispielseite Home",
+                            "page": "Vorlage:GLAMpage/Doku/Demo/Home"
+                        }, {
+                            "name": "Beispielseite Projekt",
+                            "page": "Vorlage:GLAMpage/Doku/Demo/Projekt"
+                        },
+                        {
+                            "name": "Beispielseite Text",
+                            "page": "Vorlage:GLAMpage/Doku/Demo/Text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lang": "en",
+            "name": "Wiki GLAM",
+            "page": ":commons:Commons:GLAM/en",
+            "id": "home",
+            "children": [{
+                "name": "for Institutions",
+                "page": "Commons:GLAM/en/Institutions"
+            }]
+        }
+    ],
+    "templates": {
+        "homeLink": "\u003Cdiv class=\"glam-header-logo\"\u003E[[File:GLAM Logo (DACH) white.svg|145px|class=noviewer|link=§§page§§]]\u003C/div\u003E",
+        "widget": "\u003Cdiv class=\"glam-navi\" role=\"navigation\" aria-label=\"GLAM\" \u003E§§threadNavi§§\u003C/div\u003E",
+        "threadNaviLabel": "<span>§§name§§</span>",
+        "threadNaviItem": "[[§§page§§|§§name§§]]",
+        "threadNaviItemActive": "[[§§page§§|§§name§§]]",
+        "pagina": "\u003Cdiv class=\"glam-nav-pagina\"\u003E§§btnLast§§ Seite §§currentPageNo§§ von §§totalPageNo§§ §§btnNext§§ §§btnAll§§\u003C/div\u003E",
+        "paginaStart": "\u003Cdiv class=\"glam-nav-pagina\"\u003ETutorial starten §§btnNext§§ §§btnAll§§\u003C/div\u003E",
+        "paginaAll": "\u003Cdiv\u003E[[§§page§§|Einzelseiten anzeigen]]\u003C/div\u003E",
+        "btnAll": "\u003Cdiv\u003E[[§§page§§|Alles auf einer Seite]]\u003C/div\u003E",
+        "btnLast": "\u003Cspan class=\"glam-btn-last\"\u003E[[Datei:OOjs UI icon leftTriangle-progressive.svg|24px|link=§§page§§|§§name§§]]\u003C/span\u003E",
+        "btnNext": "\u003Cspan class=\"glam-btn-next\"\u003E[[Datei:OOjs UI icon rightTriangle-progressive.svg|24px|link=§§page§§|§§name§§]]\u003C/span\u003E",
+        "articleFooter": "\u003Cdiv class=\"glam-article-footer\"\u003E§§footerBtnLast§§ §§footerBtnNext§§\u003C/div\u003E",
+        "footerBtnLast": "[[§§articleLink§§|\u003Cspan class=\"mw-ui-button\"\u003EZurück zu §§articleName§§\u003C/span\u003E]]",
+        "footerBtnNext": "[[§§articleLink§§|\u003Cspan class=\"mw-ui-button mw-ui-progressive\"\u003EWeiter mit §§articleName§§\u003C/span\u003E]]"
+    }
+}

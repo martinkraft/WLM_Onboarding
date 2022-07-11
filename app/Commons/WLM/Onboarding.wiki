@@ -1,0 +1,146 @@
+{{WLM_Onboarding/top}}
+
+<div class="wlm-on-header">
+<div class="inner">
+<div class="wlm-on-header-text">
+==How to get started<br> with <span class="c-primary">Wiki Loves Monuments</span>?==
+Discover your countries cultural heritage und learn how to contribute your photos to the worlds biggest photo competition.
+</div>
+<div class="wlm-on-header-links">[[#discover|<span>discover</span>]][[#photograph|<span>photograph</span>]][[#upload|<span>upload</span>]]</div>
+</div>
+</div>
+
+<div class="wlm-on-section"><div class="inner">
+Welcome to <span class="c-primary">Wiki Loves Monuments</span>, welcome to the world's largest photo contest! <span class="primary">Wiki Loves Monuments</span> has set itself the goal of collecting photos of as many cultural monuments around the world as possible - making them available to the general public under a free license. For more than 10 years now, every September, people in many countries of the world set out to photograph their cultural heritage. Uploading their photos here on Wikimedia Commons to use them in Wikipedia other projects.
+
+<b class="c-primary">This page should offer a easy and comprehensive guide, how to participate in this project yourself.</b>
+</div></div>
+
+<div class="wlm-on-section" id="discover"><div class="inner">
+==How to <span class="c-primary">discover</span><br> monuments nearby?==
+
+When people talk about monuments, most of them first think of world-famous buildings like the Eiffel Tower or the Taj Mahal. But cultural heritage monuments are not only these famous landmarks visited by millions of tourists each year, but also many lesser-known buildings in almost any region of the world. These include large historical buildings such as temples or palaces, but also many smaller houses or simple memorial stones, where even the local people are often not aware that it acualy is a monument.
+
+Often it is not easy, to find out which building is a monument and which is not. Let's see how to discover monuments in your area, and find out about the ones you have already encountered on trips or during vacations.
+ 
+
+<div class="wlm-on-teaser-block">
+{{WLM_Onboarding/Teaser|#discover-map|Discover via Map|WLM Onboarding Detail discover map.svg}}
+{{WLM_Onboarding/Teaser|#monument-lists|Find in List|WLM Onboarding Detail discover list.svg}}
+{{WLM_Onboarding/Teaser|#missing-monuments|Add missing Items|WLM Onboarding Detail discover add.svg}}
+</div>
+
+
+<div class="wlm-on-faq-block mw-collapsible mw-collapsed">
+===FAQ <span class="c-primary">Monuments</span>===
+{{WLM_Onboarding/FAQ|Is it allowed to photograph cultural monuments just like that?|
+If they are visible from the public space, the photography is covered by the [[Commons:FOP|freedom of panorama]] in many countries. 
+
+For interior views, it depends on the age of the building and the regulations of the buildings owner. Old buildings, whose builders have been dead for more than 70 years, are usually free of charge and may therefore be photographed without copyright restrictions. In case of doubt just ask here.
+}}
+{{WLM_Onboarding/FAQ|The name of the monument in the list differs from the one displayed on site. Should I rename it?|
+Often there are several names for one and the same building. If there is already a category for this monument on Wikimedia commons you should keep its name for the time being. The deviating designation can be indicated then in the picture description e.g. in brackets.
+}}
+{{WLM_Onboarding/FAQ|Should I upload photos that I'm not 100% sure really depict a monument?|
+Yes, In case of doubt. But it is important that you ad an precise description, where you took this picture and what you think it shows. If you are not quite sure you can also ask here.
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+</div>
+
+</div></div>
+
+<div class="wlm-on-section wlm-on-section-right" id="photograph"><div class="inner">
+==What to <span class="c-primary">photograph</span><br> for the Wiki?==
+Photographing cultural monuments is somewhat different from other normal vacation snapshots or selfies. Instead of putting yourself in the best light or conveying an impression that is more artistically playful, the aim here is, to depict the monument as authentically as possible. Not only should the building, statue oder landmark play the main role in the photo, but the impression should also be reproduced, that comes close to what is seen on site. Therefore, massive processing, color effects, image manipulation and filters should be avoided.
+
+Of course, this does not mean that you have to limit yourself to dull insurance photography. This competition also calls for exciting perspectives and new angles. Exciting weather conditions and current festivals e.g. can provide an interesting frame for the presentation of the monument.
+
+<div class="wlm-on-teaser-block">
+{{WLM_Onboarding/Teaser|#photo-tipps|Photo Tipps|WLM Onboarding Detail photograph tipps.svg}}
+{{WLM_Onboarding/Teaser|#photo-access|Getting Access|WLM Onboarding Detail photograph access.svg}}
+{{WLM_Onboarding/Teaser|#copyright|Rules of copyright|WLM Onboarding Detail photograph legal.svg}}
+</div>
+
+<div class="wlm-on-faq-block mw-collapsible mw-collapsed">
+===FAQ <span class="c-primary">Photography</span>===
+{{WLM_Onboarding/FAQ|Do I need a "real camera" to take photos or can I just use my smartphone?|
+Of course, you can also use your smartphone to take photos of cultural monuments. The image quality of todays phones is by far good enough for the web. And the best camera is the one you have with you, when you're on the go, anyway.
+}}
+{{WLM_Onboarding/FAQ|When is the best day time to take photos?|
+Lighting is usually best in the early morning or late afternoon when the sun is a little lower and the shadows are not as harsh as they are around noon. Also a slightly cloudy sky helps to get a balanced lighting.
+}}
+{{WLM_Onboarding/FAQ|Should I always depict the monuments as a whole or can I also take detail shots?|
+Both is possible and helpful point especially with larger cultural monuments it is worthwhile to take several pictures point including not only portrait and landscape formats but also different angles views and also details.
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+</div>
+
+</div></div>
+
+<div class="wlm-on-section" id="upload"><div class="inner">
+==How to <span class="c-primary">upload</span><br> and tag your photos?==
+Uploading your  pictures to Wikimedia Commons is the last but really important step of the WLM process. This is how you enables others to use your images in Wikipedia and other projects (and it’s the precondition to actually participate in the competition). Therefore it is important to name describe and categorize you uploads in a way that others are able to find them.
+
+There are multiple ways to bring your images to the Commons. Feel free to choose the one, that fits your needs and experience most.
+
+<div class="wlm-on-teaser-block">
+{{WLM_Onboarding/Teaser|#create-account|Create Account|WLM Onboarding Detail upload account.svg}}
+{{WLM_Onboarding/Teaser|#upload-photos|Upload Images|WLM Onboarding Detail upload.svg}}
+{{WLM_Onboarding/Teaser|#use-in-wiki|Add to Wikipedia|WLM Onboarding Detail upload wiki.svg}}
+</div>
+
+<div class="wlm-on-faq-block mw-collapsible mw-collapsed">
+===FAQ <span class="c-primary">Upload</span>===
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+{{WLM_Onboarding/FAQ|So here is some question: Why?|
+Therefore!
+}}
+</div>
+
+</div></div>
+
+{{WLM_Onboarding/bottom}}
+
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Discover/Map|discover-map}}
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Discover/Lists|monument-lists}}
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Discover/Missing|missing-monuments}}
+
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Photo/Tipps|photo-tipps}}
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Photo/Access|photo-access}}
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Photo/Copyright|copyright}}
+
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Upload/Account|create-account}}
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Upload/Upload|upload-photos}}
+{{WLM_Onboarding/PopUp|Commons:WLM/Onboarding/Upload/Wiki|use-in-wiki}}
+
+[[Category:WLM Onboarding]]

@@ -1,0 +1,1 @@
+<onlyinclude><div class="wlm-on-popup" id="{{{id|{{{1}}}}}}">[[#wlm|&nbsp;]]<div class="outer">[[#wlm|<span>close</span>]]<div class="inner"></onlyinclude>

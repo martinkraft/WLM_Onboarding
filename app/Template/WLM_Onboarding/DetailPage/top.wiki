@@ -1,0 +1,3 @@
+<onlyinclude><div class="wlm-on wlm-on-detail">__NOTOC__ __NOEDITSECTION__
+<templatestyles src="Template:WLM Onboarding/styles.css" />
+<div class="outer"><div class="wlm-on-detail-image">[[File:{{{image|{{{1|}}}}}}|300px]]</div><div class="inner"></onlyinclude>

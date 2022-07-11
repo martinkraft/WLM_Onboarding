@@ -1,0 +1,41 @@
+{{WLM Onboarding/DetailPage/top|WLM Onboarding Detail photograph tipps.svg}}
+==Better Photos for Wikipedia==
+
+For Wikipedia's requirements, often an existing photo is better than no photo at all. Therefore, we are happy about every image submission. However, to place well in the contest, the technical execution and object representation should be coherent.
+
+'''Above all, the subject should be easily recognizable.''' Please also make sure that the photos have a documentary character and should not represent an artistic composition; watermarks and frames are also not desired (see also [[../rules|the rules]]).
+
+For the perfect photo, many technical details can be taken into account in order to '''reproduce the monument as faithfully as possible'''. In any case, the image should be provided in the best possible quality&nbsp;- ideally in the maximum resolution that the camera can provide. 
+
+To give your photos a better chance in the competition and to make them useful in Wikipedia, we have compiled a number of common problems together with tips on how you can improve the quality of your pictures with little effort.
+
+
+{| class="wikitable"
+|- style="color:#FFFFFF;background-color:#8F0000;font-weight:bold;line-height:1;padding:0.5em;"
+| Bild
+| width="20%" | Problem
+| width="40%" | Tipps für die Aufnahme
+| width="40%" | Tipps für die Nachbearbeitung
+|- valign="top"
+| style="padding:0;" | [[File:Oberschleißheim Kirche Maria Patronin.jpg|160px]] || '''Help! All lines and angles in my picture are crooked!''' || Falling lines occur when the camera is not held horizontally but tilted up or down. Less tilt is therefore a measure. A greater shooting distance also alleviates the problem as far as space allows. || Careful de-skewing with image processing programs like [[:en:Hugin (Software)|Hugin]] or [[:en:ShiftN|]], please do not forget to add margins for dropped parts of the image, but do not overdo de-skewing, as it can lead to unnatural or unrealistic views.
+|- valign="top"
+| style="padding:0;" | [[File:Holzkirchen Marktplatz 10a Gasthof Alte Post.jpg|160px]] || '''The house looks like blown up!''' || Use lens with lower barrel distortion. || Rectify with image processing program. Some of them even "know" the individual distortion characteristics of certain lenses and rectify quite specifically with the help of the data stored with the image. 
+|- valign="top"
+| style="padding:0;" | [[File:Aschheim Rathaus.jpg|160px]] || '''The building is at an angle!''' || Use spirit level on or in camera, display guide line grid on camera monitor and carefully align during shooting. || Straighten" with image editing program.
+|- valign="top"
+| style="padding:0;" | [[File:Baierbrunn Feuerwehrhaus.jpg|160px]] || '''And no matter how I turn it&nbsp;- something always remains slanted!''' || ''see first example'' || ''see first example''
+|- valign="top"
+| style="padding:0;" | [[File:Garching Freisinger Landstraße 15.JPG|160px]] || '''I have bright spots and stripes in the picture!''' || Observe the position of the sun, if possible do not photograph against the sun, possibly use a [[lens hood]]. || Corrections and or retouching in the image editing program
+|- valign="top"
+| style="padding:0;" | [[File:Ismaning Leichenhalle.jpg|160px]] || '''On the facade are ugly shadows!''' || Note the position of the sun, if it is possible, take photos under a slightly overcast sky. || Lighten depths with image editing program
+|- valign="top"
+| style="padding:0;" | [[File:Planegg Münchner Straße 2c.jpg|160px]] || '''The house looks much more gloomy and sad than it really is!''' || Wait for more favorable lighting conditions and better weather || Tonal value corrections can alleviate the dreariness.
+|- valign="top"
+| style="padding:0;" | [[File:Feldkirchen bei München Bahnhofstraße 3.jpg|160px]] || '''The sky is bright enough, but the building is too dark!''' || Wait for more favorable light conditions (position of the sun) || Darken highlights, lighten depths with image processing program.
+|- valign="top"
+| style="padding:0;" | [[File:Waidhaus Hl. Dreifaltigkeit Innen.JPG|160px]] || '''Somehow it doesn't get any prettier with flash!''' || Use tripod and available light, '''don't''' use flash, or, for advanced photographers, possibly light with multiple flashes separate from the camera. || extensive image processing
+|- valign="top"
+| style="padding:0;" | [[File:Sauerlach Bahnhofstraße 13 Taubenhaus.jpg|160px]] || '''Actually, I am only concerned about the dovecote, not the house behind it!''' || Use depth of field in a calculated way so that the background becomes blurred, or find a location with a more neutral background (e.g. the sky or a tree). || Artificially blur the background with image editor.
+|}
+
+{{WLM Onboarding/DetailPage/bottom}}

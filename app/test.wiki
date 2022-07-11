@@ -1,0 +1,131 @@
+{{GLAMpage/top}}
+{{GLAMpage/Header/top}}
+{{GLAMpage/Header/Slide/top|image=Gruppenfoto Wikipedianische KulTour Potsdam 2019-1.jpg}}
+== Wikipedianische KulTour&nbsp;2019==
+Die Gärten von Sanssouci in Kooperation mit der Stiftung Preusische Schlösser und Gärten  für Wikipedia erfahrbar machen.
+{{GLAMpage/Button|link=Wikipedia:W:GLAM/GLAM_on_Tour|text=Weiterlesen}}
+{{GLAMpage/Header/Slide/bottom}}
+{{GLAMpage/Header/Slide/top|image=GLAM_2018_Sound_of_Changes_Grubenführung_Zeche_Nachtigall-Witten.jpg}}
+== Grubenführung Zeche Nachtigall-Witten ==
+Die Gärten von Sanssouci in Kooperation mit der Stiftung Preusische Schlösser und Gärten  für Wikipedia erfahrbar machen.
+{{GLAMpage/Button|link=Wikipedia:W:GLAM/GLAM_on_Tour|text=Weiterlesen}}
+{{GLAMpage/Header/Slide/bottom}}
+{{GLAMpage/Header/Slide/top|image=MEK 2017 Aug 1st c.jpg}}
+== GLAM im Museum Europäischer Kulturen, 2017 ==
+Die Gärten von Sanssouci in Kooperation mit der Stiftung Preusische Schlösser und Gärten  für Wikipedia erfahrbar machen.
+{{GLAMpage/Button|link=Wikipedia:W:GLAM/GLAM_on_Tour|text=Weiterlesen}}
+{{GLAMpage/Header/Slide/bottom}}
+{{GLAMpage/Header/Slide/top|image=Wikipedianerführung im Landesmuseum Württemberg Stuttgart3.JPG}}
+== Wikipedianer im Landesmuseum Württemberg Stuttgart 2015 ==
+Die Gärten von Sanssouci in Kooperation mit der Stiftung Preusische Schlösser und Gärten  für Wikipedia erfahrbar machen.
+{{GLAMpage/Button|link=Wikipedia:W:GLAM/GLAM_on_Tour|text=Weiterlesen}}
+{{GLAMpage/Header/Slide/bottom}}
+{{GLAMpage/Header/bottom}}
+
+{{GLAMpage/Section/top|innerclasses=glam-grid-marginal}}{{GLAMpage/Column/top|classes=glam-intro}}
+==Freien und offenen digitalen Zugang zum kulturellen Erbe schaffen!==
+Galerien, Bibliotheken (Libraries), Archive und Museen sowie viele andere Institutionen wie Zoos und Stiftungen bewahren Wissen und vermitteln es. Unser Ziel ist es, dieses Wissen im digitalen Raum mithilfe der Wikimedia-Projekte frei und offen verfügbar zu machen.
+
+In GLAM-Kooperationen schreiben wir Artikel, machen Fotos oder nutzen vorhandenes Material, um es der Öffentlichkeit verfügbar zu machen. Diese Form der communitybasierten Zusammenarbeit findet sowohl vor Ort in Workshops und anderen Formaten als auch digital von zu Hause aus statt. Dank der ehrenamtlichen, freiwilligen Arbeit, erreichen wir weltweit insgesamt mehr als 450 Millionen einzelne Seitenbesucher/innen – pro Monat.
+{{GLAMpage/Column/middle}}
+{{Wikipedia:GLAM/Terminkalender}}
+{{GLAMpage/Column/bottom}}{{GLAMpage/Section/bottom}}
+
+{{GLAMpage/Section/top|innerclasses=glam-grid-marginal}}{{GLAMpage/Column/top|classes=glam-intro}}
+{{GLAMpage/Infoline|Wikipedianische KulTour 2019}}
+==Preußische Schlösser und Gärten Potsdam==
+Galerien, Bibliotheken (Libraries), Archive und Museen sowie viele andere Institutionen wie Zoos und Stiftungen bewahren Wissen und vermitteln es. Unser Ziel ist es, dieses Wissen im digitalen Raum mithilfe der Wikimedia-Projekte frei und offen verfügbar zu machen.
+ 
+In GLAM-Kooperationen schreiben wir Artikel, machen Fotos oder nutzen vorhandenes Material, um es der Öffentlichkeit verfügbar zu machen. Diese Form der communitybasierten Zusammenarbeit findet sowohl vor Ort in Workshops und anderen Formaten als auch digital von zu Hause aus statt. Dank der ehrenamtlichen, freiwilligen Arbeit, erreichen wir weltweit insgesamt mehr als 450 Millionen einzelne Seitenbesucher/innen – pro Monat.
+{{GLAMpage/Column/middle}}
+{| class="glam-info-table"
+|-
+| Termin || 21. - 22. Juni 2019  
+|-
+| Ort || Braunschweig 
+|-
+| Teilnehmende || 27 
+|-
+| Artikel ||[[Category:Stadtarchiv_Braunschweig|>50]]
+|-
+| Photos || [[:commons:Category:Stadtarchiv_Braunschweig|>300]]
+|-
+| colspan="2" | Kooperationspartner {{GLAMpage/Logo|image=Stadt-Braunschweig-Stadtarchiv-Logo.svg|link=Wikipedia:Stadtarchiv Braunschweig|title=XXX}}
+|-
+| Kontakt || [[User:BotBln|]]<br>[[User:Holger Plinkert|]]<br>[[User:GodeNehler|]]
+|}
+{{GLAMpage/Column/bottom}}{{GLAMpage/Section/bottom}}
+
+{{GLAMpage/Section/top|classes=bg-grey}}
+==Bisherige Kooperationspartner==
+Viele Institutionen haben bereits Ihre Pforten für Wikipedia geöffnet und so Ihren Fundus im digitalen Raum sichtbarer gemacht. 
+Haben auch Sie Interesse an einer Kooperation? [[WP:GLAM|Dann melden Sie sich bei uns!]]
+{{GLAMpage/Section/middle|innerclasses=wide glam-logos}}
+{{GLAMpage/Logo|image=Bundesdenkmalamt logo.svg|link=Wikipedia:WikiProjekt Österreichische Denkmallisten/Scanner-Projekt|title=XXX}}
+{{GLAMpage/Logo|image=Stadt-Braunschweig-Stadtarchiv-Logo.svg|link=Wikipedia:Stadtarchiv Braunschweig|title=XXX}}
+{{GLAMpage/Logo|image=Braunschweigisches_Landesmuseum_Logo_Dachmarke.jpg|140px|link=Wikipedia:GLAM/GLAM on Tour/Die Römer kommen!|title=XXX}}
+{{GLAMpage/Logo|image=Hamburg Museum Logo.png|link=Wikipedia:Museum für Hamburgische Geschichte|title=XXX}}
+{{GLAMpage/Logo|image=AMH SHHM Logo.svg|140px|link=Wikipedia:Archäologisches Museum Hamburg|title=XXX}}
+{{GLAMpage/Logo|image=Deutsches Archäologisches Institut Logo.svg|link=Wikipedia:GLAM/Deutsches Archäologisches Institut|title=XXX}}
+{{GLAMpage/Logo|image=OKFN Main logo.png|link=Meta:Wikimedian in Residence on Open Science|title=XXX}}
+{{GLAMpage/Logo|image=Stiftung Stadtmuseum Berlin Wortmarke mehrzeilig.svg|link=Wikipedia:GLAM/Stadtmuseum Berlin|title=XXX}}
+{{GLAMpage/Logo|image=Bundeskunsthalle Logo.gif|140px|link=Wikipedia:GLAM/GLAM on Tour/Outer Space (Bundeskunsthalle)|title=XXX}}
+{{GLAMpage/Logo|image=Logo VfGH 2016.svg|link=Wikipedia:GLAM/Wikipedian in Residence am österreichischen Verfassungsgerichtshof|title=XXX}}
+{{GLAMpage/Logo|image=Logo_University_of_Heidelberg.svg|link=Wikipedia:GLAM/GLAM_on_Tour/Antikenmuseum_und_Abguss-Sammlung_Heidelberg|title=XXX}}
+{{GLAMpage/Logo|image=HF Logo quer rgb-01.svg|link=Wikipedia:WikiProjekt Humboldt Forum|title=XXX}}
+{{GLAMpage/Section/bottom}}
+
+{{GLAMpage/Section/top}}
+==Ihre Ansprechpartner==
+Viele Institutionen haben bereits Ihre Pforten für Wikipedia geöffnet und so Ihren Fundus im digitalen Raum sichtbarer gemacht. 
+Haben auch Sie Interesse an einer Kooperation? Dann melden Sie sich bei uns!
+<div class="glam-grid-3">
+{{GLAMpage/Circle/top|image=2018-11-03 Wikipedianische KulTour Humboldtforum2018 by DCB–017.jpg}}
+Wikimedia Deutschland, Berlin<br>
+[mailto:holger.plickert@wikimedia.de?subject=GLAM Holger Plickert]<br>
+Projektmanager Kultur und Community<br>
++49 (0)30-219 158 26-0
+{{GLAMpage/Circle/bottom}}
+{{GLAMpage/Circle/top|image=2018-11-03 Wikipedianische KulTour Humboldtforum2018 by DCB–017.jpg}}
+Wikimedia Deutschland, Berlin<br>
+[mailto:holger.plickert@wikimedia.de?subject=GLAM Holger Plickert]<br>
+Projektmanager Kultur und Community<br>
++49 (0)30-219 158 26-0
+{{GLAMpage/Circle/bottom}}
+{{GLAMpage/Circle/top|image=2018-11-03 Wikipedianische KulTour Humboldtforum2018 by DCB–017.jpg}}
+Wikimedia Deutschland, Berlin<br>
+[mailto:holger.plickert@wikimedia.de?subject=GLAM Holger Plickert]<br>
+Projektmanager Kultur und Community<br>
++49 (0)30-219 158 26-0
+{{GLAMpage/Circle/bottom}}
+</div>
+{{GLAMpage/Section/bottom}}
+
+{{GLAMpage/Section/top|classes=bg-grey}}
+==Einige Projektbeispiele==
+
+Viele Institutionen haben bereits Ihre Pforten für Wikipedia geöffnet und so Ihren Fundus im digitalen Raum sichtbarer gemacht. 
+Haben auch Sie Interesse an einer Kooperation? Dann melden Sie sich bei uns!
+<gallery heights="140px" mode="packed">
+Braunschweig Braunschweigisches Landesmuseum (BLM).jpg|link=Wikipedia:GLAM/GLAM on Tour/Die Römer kommen!/Programm & Teilnehmer|[[Wikipedia:GLAM/GLAM on Tour/Die Römer kommen!/Programm & Teilnehmer|Braunschweigisches Landesmuseum: Die Römer kommen!]]
+13-11-02-olb-by-RalfR-03.jpg|link=Wikipedia:Oberlausitz/Veranstaltungen/OLB 2013|[[Wikipedia:Oberlausitz/Veranstaltungen/OLB 2013|Oberlausitzische Bibliothek der Wissenschaften]]
+Brilon, Haus Hövener for GLAM October 2014 in Germany.jpg|link=Wikipedia:GLAM/GLAM on Tour/Bergbau im Sauerland|[[Wikipedia:GLAM/GLAM on Tour/Bergbau im Sauerland|Bergbau im Sauerland]]
+Wuppertal vdheydtmuseum.JPG|link=Wikipedia:GLAM/GLAM on Tour/Edit-a-thon Pissarro|[[Wikipedia:GLAM/GLAM on Tour/Edit-a-thon Pissarro|Edit-a-thon Pissarro]]
+Caputh, Schloss Seeseite.jpg|link=Wikipedia:GLAM/GLAM on Tour/GLAM on Tour im Schloss Caputh|[[Wikipedia:GLAM/GLAM on Tour/GLAM on Tour im Schloss Caputh|Schloss Caputh]]
+Altes Schloss S - vm01.jpg|link=Wikipedia:Stuttgart/Archiv/Juni 2015 - Führung im Landesmuseum Württemberg|[[Wikipedia:Stuttgart/Archiv/Juni 2015 - Führung im Landesmuseum Württemberg|Landesmuseum Württemberg]]
+Berlin-kreuzberg-technikmus.jpg|link=Wikipedia:Wikipedianische KulTour/Deutsches Technikmuseum|[[Wikipedia:Wikipedianische KulTour/Deutsches Technikmuseum|Deutsches Technikmuseum]]
+Staatsarchiv Bremen.jpg|link=Wikipedia:WikiProjekt Bremen/Stammtisch Nr. 100#GLAM-Event im Staatsarchiv|[[Wikipedia:WikiProjekt Bremen/Stammtisch Nr. 100#GLAM-Event im Staatsarchiv|Staatsarchiv Bremen]]
+Museum Technische Sammlungen Dresden 01.JPG|link=Wikipedia:GLAM/GLAM on Tour/GLAM on Tour Technische Sammlungen und Verkehrsmuseum Dresden#GLAM on Tour Technische Sammlungen und Verkehrsmuseum Dresden|[[Wikipedia:GLAM/GLAM on Tour/GLAM on Tour Technische Sammlungen und Verkehrsmuseum Dresden#GLAM on Tour Technische Sammlungen und Verkehrsmuseum Dresden|Technische Sammlungen und Verkehrsmuseum Dresden]]
+Baden-Württemberg, Stuttgart, Landesmuseum Württemberg NIK 1651.JPG|link=Wikipedia:GLAM/GLAM on Tour/Landesmuseum Württemberg#Zur neuen Schausammlung "Wahre Schätze" Antike • Kelten • Kunstkammer|[[Wikipedia:GLAM/GLAM on Tour/Landesmuseum Württemberg#Zur neuen Schausammlung "Wahre Schätze" Antike • Kelten • Kunstkammer|Landesmuseum Württemberg]]
+LVR Cromford Glanzzylinder.jpg|link=Wikipedia:GLAM/GLAM on Tour/Macht der Mode/Textilfabrik Cromford#Sonderausstellung Macht der Mode - Zwischen Kaiserreich, Weltkrieg und Republik|[[Wikipedia:GLAM/GLAM on Tour/Macht der Mode/Textilfabrik Cromford#Sonderausstellung Macht der Mode - Zwischen Kaiserreich, Weltkrieg und Republik|Macht der Mode<br>Textilfabrik Cromford]]
+2016.07.02 - GLAM Bonn - Transrapid 06 05 cropped.jpg|link=Wikipedia:GLAM/GLAM on Tour/Deutsches Museum Bonn#GLAM on Tour im Deutschen Museum Bonn|[[Wikipedia:GLAM/GLAM on Tour/Deutsches Museum Bonn#GLAM on Tour im Deutschen Museum Bonn|Deutsches Museum Bonn]]
+MEK-Conchita Wurst auf der Mondsichel-9.tif|link=Wikipedia:GLAM/GLAM on Tour/Wiki goes MEK!|[[Wikipedia:GLAM/GLAM on Tour/Wiki goes MEK!|Museum Europäi&shy;scher Kulturen]]
+Museum Senkenberg Görlitz-164.jpg|link=Wikipedia:Oberlausitz/Senckenberg Museum für Naturkunde Görlitz|[[Wikipedia:Oberlausitz/Senckenberg Museum für Naturkunde Görlitz|Senckenberg Museum für Naturkunde Görlitz]]
+Jagdschloß Grunewald-100.jpg|link=Wikipedia:GLAM/GLAM on Tour/Jagdschloss Grunewald|[[Wikipedia:GLAM/GLAM on Tour/Jagdschloss Grunewald|Jagdschloss Grunewald]]
+Museum Fuerstenberg nach Renovierung cropped.jpg|link=Wikipedia:GLAM/GLAM on Tour/Porzellanmanufaktur Fürstenberg/Programm & Teilnehmer|[[ Wikipedia:GLAM/GLAM on Tour/Porzellanmanufaktur Fürstenberg/Programm & Teilnehmer|Museum Schloss Fürstenberg: Porzellanmanufaktur Fürstenberg]]
+MEK II-405.jpg|link=Wikipedia:GLAM/GLAM on Tour/Wiki goes MEK! 2.0|[[Wikipedia:GLAM/GLAM on Tour/Wiki goes MEK! 2.0|MEK! 2.0 Hochzeit]]
+Marie-Olympe-de-Gouges.jpg|link=Wikipedia:Potsdam/Hundert Jahre Frauenwahlrecht/Themen|[[Wikipedia:Potsdam/Hundert Jahre Frauenwahlrecht/Themen|Hundert Jahre Frauenwahl&shy;recht]]
+File:04_SMP_Schlangenarmreif_FotoGüntherMeyer.jpg|link=Wikipedia:GLAM/GLAM_on_Tour/Schmuckmuseum_Pforzheim|[[Wikipedia:GLAM/GLAM_on_Tour/Schmuckmuseum_Pforzheim|Schmuck&shy;museum Pforzheim]]
+</gallery>
+{{GLAMpage/Section/bottom}}
+{{GLAMpage/bottom}}

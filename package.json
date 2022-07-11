@@ -1,0 +1,14 @@
+{
+  "name": "wlm-onboarding",
+  "version": "1.0.0",
+  "description": "MediaWiki Template for WML-Onboarding pages",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style expanded --watch ./src/ -o ./app/Template/WLM_Onboarding/"
+  },
+  "author": "Martin Kraft",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
