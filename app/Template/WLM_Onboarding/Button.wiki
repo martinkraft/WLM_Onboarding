@@ -1,4 +1,7 @@
-{{#if:{{{external|}}} 
-  | <div class="plainlinks glam-button">[{{{link|:c:}}} <span class="mw-ui-button mw-ui-progressive">{{{text}}}</span>]</div> 
-  | <div class="plainlinks glam-button">[[{{{link|:c:}}}|<span class="mw-ui-button mw-ui-progressive">{{{text}}}</span>]]</div>
+{{#if:{{{link|}}} 
+|{{#if:{{{external|}}} 
+  | <div class="plainlinks wlm-on-button">[{{{link|:c:}}} <span class="mw-ui-button mw-ui-progressive">{{{text|{{{1}}}}}}</span>]</div> 
+  | <div class="plainlinks wlm-on-button">[[{{{link|:c:}}}|<span class="mw-ui-button mw-ui-progressive">{{{text|{{{1}}}}}}</span>]]</div>
+}}
+|<span class="wlm-on-button mw-ui-button mw-ui-progressive">{{{text|{{{1}}}}}}</span>
 }}

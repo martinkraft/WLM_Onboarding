@@ -122,7 +122,8 @@ html *{
           padding-top: $svgAr;
         }
 
-        @each $name, $image in $header-images {
+        @each $name,
+        $image in $header-images {
           &[href="##{$name}"]::before {
             background-image: $image;
           }
@@ -181,7 +182,6 @@ html *{
     }
   }
 
-
   .box {
     padding: 1em;
   }
@@ -207,6 +207,13 @@ html *{
     box-sizing: border-box;
   }
 
+  hr {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    height: 4px;
+    background-color: $c-beige;
+  }
 
   a {
     color: $c-primary;
@@ -225,18 +232,68 @@ html *{
     }
   }
 
-  .wlm-on-button {
+  ul{
+    list-style-type: none;
+    list-style-image: none;
+    
+  }
+  li {
+      margin-bottom: 1em;
+      position: relative;
+
+      &::before{
+        content: '❯';
+        color: $c-primary;
+        font-weight: bold;
+        position: absolute;
+        width: 1em;
+        right: calc(100% + 0.66em);
+      }
+  }
+
+  & .btn,
+  &-button {
     font-family: sans-serif;
+    text-align: center;
+
+    >a {
+      margin: .5em auto;
+      display: inline-block;
+      padding: .5em 2em;
+      font-size: $font-size-big;
+      font-weight: bold;
+
+      color: $c-white;
+      background-color: $c-primary;
+
+      border-radius: $border-radius;
+      transition: all .3s;
+    }
   }
 
   .mw-ui-button,
   .mw-ui-button.mw-ui-progressive,
   .mw-ui-button:hover,
   .mw-ui-button.mw-ui-progressive:hover {
-    background-color: $c-black;
-    border-color: $c-black;
-    font-weight: 400;
-    font-family: sans-serif;
+    margin: .5em auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+    >a {
+      color: currentColor;
+      text-decoration: none;
+      display: inline-block;
+      padding: .5em 2em;
+      font-size: $font-size-big;
+      font-weight: bold;
+
+      color: $c-white;
+      background-color: $c-primary;
+
+      border-radius: $border-radius;
+      transition: all .3s;
+    }
   }
 
   p {
@@ -276,6 +333,15 @@ html *{
     font-size: 1.5rem;
   }
 
+  pre,
+  code,
+  .mw-code {
+    background-color: $c-beige;
+    border: none;
+    box-shadow: .3em .1em .2em inset rgba(0, 0, 0, 0.1);
+    border-radius: $border-radius;
+  }
+
   body.skin-vector-legacy & {
     margin-top: pxToRem(-42px);
   }
@@ -287,8 +353,6 @@ html *{
 
   .wlm-on-section {
 
-
-       
     +.wlm-on-section {
       &::before {
         content: '';
@@ -306,7 +370,8 @@ html *{
       transform: translateX(6rem);
 
 
-      &::before, &::after {
+      &::before,
+      &::after {
         content: '';
         display: block;
         z-index: -1;
@@ -314,8 +379,15 @@ html *{
 
         font-size: 1rem;
 
-        width: 20em;
-        height: 20em;       
+        width: calc(10em + 10vw);
+        height: calc(10em + 10vw);
+        max-width: 22em;
+        max-height: 22em;
+
+        /* Currntly not supported
+        width: clamp(15em, 20vw, 22em);
+        height: clamp(15em, 20vw, 22em);
+        */
 
         top: 0;
         left: 0;
@@ -323,18 +395,19 @@ html *{
 
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;  
+        background-size: contain;
       }
 
-      &::before{        
-        border-radius: 50%; 
+      &::before {
+        border-radius: 50%;
         background-color: $c-bg;
         margin: 2em;
       }
 
     }
 
-    @each $name, $image in $section-images {
+    @each $name,
+    $image in $section-images {
       &[id="#{$name}"] h2::after {
         background-image: $image;
       }
@@ -345,7 +418,8 @@ html *{
         text-align: right;
         transform: translateX(-6rem);
 
-        &::before,&::after {
+        &::before,
+        &::after {
           left: auto;
           right: 0;
           transform: translate(60%, -60%);
@@ -673,7 +747,7 @@ html *{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(#ebeae4, .8);
+  background-color: rgba($c-grey-d, .8);
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -698,7 +772,7 @@ html *{
   &>.outer {
     background: #FFF;
     overflow: hidden;
-    border-radius: .4rem;
+    border-radius: $border-radius;
     box-shadow: .2rem .2rem 2rem rgba(0, 0, 0, .2);
     padding: calc(1rem + 1vw);
     position: relative;
@@ -755,8 +829,13 @@ html *{
       overflow: auto;
 
       h2,
-      h3 {
+      h3,
+      h4 {
         color: $c-primary;
+
+        b {
+          color: $c-text;
+        }
       }
     }
   }
@@ -767,9 +846,20 @@ html *{
     margin-top: 0;
   }
 
+  .image,
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  tr td img {
+    max-width: none;
+  }
+
   >.outer {
     margin: 0 auto;
-    max-width: 56rem;
+    max-width: 70rem;
     display: flex;
     justify-content: stretch;
     align-items: flex-start;
@@ -780,17 +870,54 @@ html *{
       border-right: 4px solid $c-bg;
 
       max-width: 30%;
-      min-width: 10rem;;
+      min-width: 10rem;
 
-      .image,
-      img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
     }
 
     >.inner {}
+  }
+
+  &-grid2 {
+
+    >* {
+      border-top: $c-beige solid 4px;
+      padding-top: 1rem;
+      margin: 1rem 0;
+
+    }
+
+    @media screen and (min-width:620px) {
+      display: flex;
+
+      >* {
+        flex: 1 1 50%;
+        border-top: none;
+        margin: 0;
+        padding: 0;
+
+        >:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      >:nth-child(2n - 1) {
+        margin-right: 4rem;
+        position: relative;
+
+        &::after {
+          position: absolute;
+          content: '';
+          display: block;
+          right: calc(-2px - 2rem);
+          top: 0;
+          bottom: 0;
+
+          width: 4px;
+          background-color: $c-beige;
+        }
+      }
+
+    }
   }
 }
 
@@ -822,7 +949,7 @@ html *{
       color: $c-white;
       background-color: $c-primary;
 
-      border-radius: .3em;
+      border-radius: $border-radius;
       transition: all .3s;
     }
   }
@@ -840,7 +967,7 @@ html *{
     &-block {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       margin: 4rem 0 0;
     }
   }
@@ -982,10 +1109,12 @@ html *{
     }
   }
 
+  body.skin-minerva &,
   &:not(.mw-collapsed) {
 
     .wlm-on-faq-question {
       color: $c-primary;
+      font-weight: bold;
     }
 
     .mw-collapsible-text {
