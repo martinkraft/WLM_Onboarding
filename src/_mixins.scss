@@ -1,5 +1,5 @@
 @function pxToRem($px) {
-    @return 1rem * $px / $base-px;
+    @return calc(1rem * $px / $base-px);
 }
 
 @function pxToEm($px, $bpx) {

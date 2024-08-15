@@ -8,6 +8,21 @@ html *{
 
 // GLAMpage
 .wlm-on {
+  background-color: white;
+  padding-bottom: 3em;
+
+  html.vector-feature-limited-width-content-enabled &:not(.wlm-on-detail) {
+    margin: 0 calc((100% - 100vw) / 2);
+
+    .wlm-on-section {
+      padding-right: calc(1rem + 3vw);
+      padding-left: calc(1rem + 3vw);
+    }
+  }
+
+  .mw-heading {
+    overflow: visible;
+  }
 
   $outer-padding: calc(1rem + 3vw);
 
@@ -18,6 +33,7 @@ html *{
   &-header {
     background-color: $c-bg;
     padding: $outer-padding;
+    overflow: hidden;
 
     body.skin-minerva & {
       margin: 0 calc((100% - 100vw) / 2);
@@ -38,7 +54,7 @@ html *{
         display: block;
 
         width: 100%;
-        padding-top: #{ 100% * 608 / 1453 };
+        padding-top: #{calc( 100% * 608 / 1453 )};
       }
 
       >* {
@@ -54,7 +70,13 @@ html *{
       text-align: left;
       position: relative;
       z-index: 1;
-      max-width: 40em;
+      max-width: $col-width;
+      margin: 0 auto;
+
+      >* {
+        display: block;
+        max-width: 40em;
+      }
     }
 
     &-links {
@@ -111,7 +133,7 @@ html *{
         font-size: pxToRem(28px);
         font-weight: bold;
         transition: all .3s;
-        $svgAr: #{( 100% * 440 / 620)};
+        $svgAr: #{calc( 100% * 440 / 620)};
 
         &::before {
           content: '';
@@ -177,7 +199,8 @@ html *{
     h2 {
       font-family: $font-sans;
       font-size: pxToRem(38px);
-      //font-size: clamp(1.2rem, 8vw, 3rem);
+      font-size: calc(1.2rem + 2vw);
+
       line-height: 1;
     }
   }
@@ -222,7 +245,7 @@ html *{
       text-decoration: none;
     }
 
-    .external {
+    &.external.external {
       background-image: none;
       margin-right: 0;
 
@@ -232,23 +255,59 @@ html *{
     }
   }
 
-  ul{
+  ul {
     list-style-type: none;
     list-style-image: none;
-    
-  }
-  li {
-      margin-bottom: 1em;
-      position: relative;
 
-      &::before{
-        content: '❯';
-        color: $c-primary;
-        font-weight: bold;
-        position: absolute;
-        width: 1em;
-        right: calc(100% + 0.66em);
+  }
+
+  li {
+    margin-bottom: 1em;
+    position: relative;
+
+    &::before {
+      content: '❯';
+      color: $c-primary;
+      font-weight: bold;
+      position: absolute;
+      width: auto;
+      text-align: right;
+      right: calc(100% + 0.66em);
+    }
+  }
+
+  .wikitable {
+    
+    color: $c-text;
+
+    &,
+    tr,
+    td,
+    th {
+      border: none;
+      background: none;
+      padding: 0;
+    }
+
+    th {
+      text-align: left;
+      color: $c-primary;
+      border-color: $c-primary;
+    }
+
+    tr {
+      border-bottom: $border-beige;
+    }
+
+    td,
+    th {
+      padding: 1em 0;
+      vertical-align: top;
+
+      &:not(:last-child) {
+        padding-right: 1em;
       }
+    }
   }
 
   & .btn,
@@ -268,6 +327,10 @@ html *{
 
       border-radius: $border-radius;
       transition: all .3s;
+
+      &:hover {
+        background-color: $c-text;
+      }
     }
   }
 
@@ -293,6 +356,10 @@ html *{
 
       border-radius: $border-radius;
       transition: all .3s;
+
+      &:hover {
+        background-color: $c-text;
+      }
     }
   }
 
@@ -326,7 +393,7 @@ html *{
   }
 
   h2 {
-    font-size: pxToRem(38px);
+    font-size: calc(1.2rem + 2vw);
   }
 
   h3 {
@@ -364,11 +431,12 @@ html *{
     }
 
     h2 {
-      margin-bottom: 2em;
+      margin-bottom: 2rem;
       position: relative;
       overflow: visible;
-      transform: translateX(6rem);
+      text-align: center;
 
+      font-size: calc(1.2rem + 2vw);
 
       &::before,
       &::after {
@@ -379,10 +447,12 @@ html *{
 
         font-size: 1rem;
 
-        width: calc(10em + 10vw);
-        height: calc(10em + 10vw);
+        width: calc(10em + 20vw);
+        height: calc(10em + 20vw);
         max-width: 22em;
         max-height: 22em;
+
+        transform: translate(-50%, -80%);
 
         /* Currntly not supported
         width: clamp(15em, 20vw, 22em);
@@ -390,8 +460,7 @@ html *{
         */
 
         top: 0;
-        left: 0;
-        transform: translate(-66%, -60%);
+        left: 50%;
 
         background-repeat: no-repeat;
         background-position: center;
@@ -401,29 +470,53 @@ html *{
       &::before {
         border-radius: 50%;
         background-color: $c-bg;
-        margin: 2em;
       }
 
+      &+* {
+        position: relative;
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      h2 {
+        text-align: left;
+        transform: translateX(6rem);
+        display: block;
+        z-index: -1;
+
+        &::before,
+        &::after {
+          left: 0;
+          right: auto;
+          transform: translate(-66%, -60%);
+        }
+
+        &::before {
+          margin: 2em;
+        }
+      }
+
+      &-right {
+        h2 {
+          text-align: right;
+          transform: translateX(-6rem);
+          left: auto;
+          right: 0;
+
+          &::before,
+          &::after {
+            left: auto;
+            right: 0;
+            transform: translate(60%, -60%);
+          }
+        }
+      }
     }
 
     @each $name,
     $image in $section-images {
       &[id="#{$name}"] h2::after {
         background-image: $image;
-      }
-    }
-
-    &-right {
-      h2 {
-        text-align: right;
-        transform: translateX(-6rem);
-
-        &::before,
-        &::after {
-          left: auto;
-          right: 0;
-          transform: translate(60%, -60%);
-        }
       }
     }
 
@@ -749,33 +842,33 @@ html *{
   bottom: 0;
   background-color: rgba($c-grey-d, .8);
   z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
 
-  &:not(:target) {
-    display: none;
+  body.skin-minerva & .wlm-on {
+    margin-top: 0;
   }
 
   &>a {
     display: block;
     position: absolute;
+    background-color: transparent;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-color: transparent;
   }
 
   &>.outer {
     background: #FFF;
     overflow: hidden;
-    border-radius: $border-radius;
-    box-shadow: .2rem .2rem 2rem rgba(0, 0, 0, .2);
-    padding: calc(1rem + 1vw);
     position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 3px;
+
+    transform: scale(1);
+    transition: transform 1s;
 
     &>a {
       position: absolute;
@@ -789,6 +882,7 @@ html *{
         width: 1em;
         height: 1em;
         background-color: transparent;
+        z-index: 3;
 
         color: $c-bg;
 
@@ -822,11 +916,10 @@ html *{
     }
 
     &>.inner {
-      max-width: $col-width;
-      min-width: 20rem;
-
-      max-height: calc(100vh - 8rem);
       overflow: auto;
+      padding: calc(1rem + 3vw);
+      max-height: calc(100vh);
+      box-sizing: border-box;
 
       h2,
       h3,
@@ -836,6 +929,38 @@ html *{
         b {
           color: $c-text;
         }
+      }
+    }
+  }
+
+  &:not(:target) {
+    display: none;
+
+    //pointer-events: none;
+    &>.outer {
+      transform: scale(.3);
+      opacity: 0;
+    }
+  }
+
+  @media screen and (min-width:610px) {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &>.outer {
+      width: auto;
+      height: auto;
+      border-radius: $border-radius;
+      box-shadow: .2rem .2rem 2rem rgba(0, 0, 0, .2);
+
+      &>.inner {
+        width: auto;
+        max-width: $col-width;
+        min-width: 20rem;
+        height: auto;
+        max-height: calc(100vh - 8rem);
       }
     }
   }
@@ -858,29 +983,52 @@ html *{
   }
 
   >.outer {
-    margin: 0 auto;
-    max-width: 70rem;
-    display: flex;
-    justify-content: stretch;
-    align-items: flex-start;
+    >.inner {}
 
-    >.wlm-on-detail-image {
-      margin-right: 2em;
-      padding-right: 2em;
-      border-right: 4px solid $c-bg;
+    @media screen and (max-width:599px) {
 
-      max-width: 30%;
-      min-width: 10rem;
+      >.wlm-on-detail-image {
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+      }
 
+      h2 {
+        text-align: center;
+      }
+
+      .wlm-on-button {
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
-    >.inner {}
+    @media screen and (min-width:600px) {
+
+      >.outer {
+        margin: 0 auto;
+        max-width: 70rem;
+        display: flex;
+        justify-content: stretch;
+        align-items: flex-start;
+
+        >.wlm-on-detail-image {
+          margin-right: 2em;
+          padding-right: 2em;
+          border-right: 4px solid $c-bg;
+
+          max-width: 30%;
+          min-width: 10rem;
+        }
+      }
+    }
   }
 
   &-grid2 {
 
     >* {
-      border-top: $c-beige solid 4px;
+      border-top: $border-beige;
       padding-top: 1rem;
       margin: 1rem 0;
 
